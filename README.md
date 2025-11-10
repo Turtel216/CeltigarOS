@@ -1,4 +1,4 @@
-# VanaOS
+# CeltigarOS
 
 > A microkernel operating system written in Rust, built for learning and experimentation.
 
@@ -6,7 +6,7 @@
 
 ## 🚀 About
 
-**VanaOS** is a hobby operating system developed in Rust, inspired by the excellent [Writing an OS in Rust](https://os.phil-opp.com/) tutorial series by Philipp Oppermann.
+**CeltigarOS** is a hobby operating system developed in Rust, inspired by the excellent [Writing an OS in Rust](https://os.phil-opp.com/) tutorial series by Philipp Oppermann.
 
 The primary goal of this project is to gain a deeper understanding of:
 - **Bare-metal development**
@@ -31,7 +31,7 @@ This project is built from scratch with no standard library, targeting `x86_64` 
 
 ## 🧰 Prerequisites
 
-Before building VanaOS, make sure the following are installed on your system:
+Before building CeltigarOS, make sure the following are installed on your system:
 
 - [Rust (nightly)](https://rustup.rs/)
 - [QEMU (x86_64)](https://www.qemu.org/download/)
@@ -43,8 +43,8 @@ Before building VanaOS, make sure the following are installed on your system:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Turtel216/VanaOS.git
-   cd VanaOS
+   git clone https://github.com/Turtel216/CeltigarOS.git
+   cd CeltigarOS
    ```
 
 2. **Install QEMU**
@@ -78,7 +78,7 @@ Before building VanaOS, make sure the following are installed on your system:
 ## 🔍 Project Structure
 
 ```
-VanaOS/
+CeltigarOS/
 ├── src/                # Kernel source code
 ├── Cargo.toml          # Project manifest
 └── .cargo/config.toml  # Build target configuration
